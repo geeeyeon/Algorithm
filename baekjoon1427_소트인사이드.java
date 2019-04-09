@@ -1,6 +1,6 @@
 /* https://www.acmicpc.net/problem/1427
- * ¼ÒÆ®ÀÎ»çÀÌµå
- * Ã¹Â° ÁÙ¿¡ Á¤·ÄÇÏ°íÀÚ ÇÏ´Â ¼ö NÀ» ÀÔ·Â¹Þ¾Æ °¢ ÀÚ¸®¼ö¸¦ ³»¸²Â÷¼øÀ¸·Î Á¤·Ä
+ * ì†ŒíŠ¸ì¸ì‚¬ì´ë“œ
+ * ì²«ì§¸ ì¤„ì— ì •ë ¬í•˜ê³ ìž í•˜ëŠ” ìˆ˜ Nì„ ìž…ë ¥ë°›ì•„ ê° ìžë¦¬ìˆ˜ë¥¼ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì •ë ¬
  * */
 import java.util.Scanner;
 
