@@ -18,7 +18,11 @@ public class algo11866조세퍼스문제0 {
 		sb.append("<");
 		
 		while(!q.isEmpty()) {
+<<<<<<< HEAD
 			int M = K;
+=======
+			int M = q.size()>=K ? K:K%q.size();
+>>>>>>> ff94a1a00c00b4d1235fed4d8affc27183d871df
 			
 			while(M-->1) { //제거할 숫자가 나올때까지 뒤로 보내기
 				int temp = q.poll();//poll : 큐의 front가 가리키는 값을 반환하고 삭제
