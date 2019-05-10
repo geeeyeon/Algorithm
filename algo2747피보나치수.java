@@ -1,6 +1,6 @@
 /* https://www.acmicpc.net/problem/2747
  * 피보나치수
- * memorization으로 다시풀기
+ * memoization으로 다시풀기
  * */
 
 import java.util.Scanner;
