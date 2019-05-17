@@ -1,3 +1,6 @@
+/*https://www.acmicpc.net/problem/2490
+ * 첫째 줄부터 셋째 줄까지 한 줄에 하나씩 결과를  도는 A, 개는 B, 걸은 C, 윷은 D, 모는 E로 출력한다.
+ */
 import java.util.Scanner;
 
 public class algo2490윷놀이 {
