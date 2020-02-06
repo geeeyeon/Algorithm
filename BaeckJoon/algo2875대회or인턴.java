@@ -1,20 +1,20 @@
 /*https://www.acmicpc.net/problem/2875
- * ´ëÈ¸ or ÀÎÅÏ - ±×¸®µğ¾Ë°í¸®Áò
+ * ï¿½ï¿½È¸ or ï¿½ï¿½ï¿½ï¿½ - ï¿½×¸ï¿½ï¿½ï¿½Ë°ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 import java.util.Scanner;
 
-public class algo2875´ëÈ¸orÀÎÅÏ {
+public class algo2875ëŒ€íšŒÈ¸orì¸í„´ {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();	//¿©ÇĞ»ı
-		int m = sc.nextInt();	//³²ÇĞ»ı
-		int k = sc.nextInt();	//ÀÎÅÏ½±
+		int n = sc.nextInt();	//ï¿½ï¿½ï¿½Ğ»ï¿½
+		int m = sc.nextInt();	//ï¿½ï¿½ï¿½Ğ»ï¿½
+		int k = sc.nextInt();	//ï¿½ï¿½ï¿½Ï½ï¿½
 		
 		int output=0;
 		
-		output = n/2<m ? n/2 : m;	//¿©2³²1ºñÀ² È®ÀÎ
-		k -= n+m -output*3;	//3 = ¿©2+³²1
+		output = n/2<m ? n/2 : m;	//ï¿½ï¿½2ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
+		k -= n+m -output*3;	//3 = ï¿½ï¿½2+ï¿½ï¿½1
 		
 		while(k>0) {
 			k-=3;
