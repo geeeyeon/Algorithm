@@ -1,9 +1,9 @@
-/*https://www.acmicpc.net/problem/10950
-    A+B의 값 출력하기
-*/
+/*https://www.acmicpc.net/problem/11022
+    A+B의 값을 깔끔하게 출력하기
+ */
 import java.util.*;
 
-public class algo10950{
+public class Hello{
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class algo10950{
             int a = sc.nextInt();
             int b = sc.nextInt();
 
-            System.out.println(a+b);
+            System.out.println("Case #"+i+": "+a+" + "+b+" = "+(a+b));
         }
     }
 }
