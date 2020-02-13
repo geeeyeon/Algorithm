@@ -3,7 +3,7 @@
  */
 import java.util.*;
 
-public class Hello{
+public class algo11022{
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
