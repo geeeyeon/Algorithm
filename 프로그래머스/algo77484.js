@@ -1,6 +1,10 @@
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/77484
  * 로또의 최고 순위와 최저 순위
+ * 
+ * ----다른사람의 풀이
+ * const rank = [6, 6, 5, 4, 3, 2, 1];
+ * 랭킹을 따로 적어놓고 할걸..
  */
 
  function solution(lottos, win_nums){
