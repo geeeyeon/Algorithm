@@ -2,7 +2,12 @@
  * https://programmers.co.kr/learn/courses/30/lessons/86491#
  * 최소직사각형
  * 
- * 다시풀어보기
+ * 다시풀어보기****
+ * 숫자로 sort할때는 이런식으로 하기
+ * score.sort(function(a, b) { // 오름차순
+    return a - b;
+    // 1, 2, 3, 4, 10, 11
+});
  */
 
  function solution(sizes){
