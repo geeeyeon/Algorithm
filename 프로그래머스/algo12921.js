@@ -2,7 +2,7 @@
  * https://programmers.co.kr/learn/courses/30/lessons/12921
  * 소수 찾기
  * 1부터 입력받은 N 사이에 있는 소수의 개수 구하기
- *
+ * *****효율성에서 탈락.. 다시풀기
  */
 
 function solution(n) {
