@@ -1,7 +1,9 @@
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/42586
  * 기능개발 - 스택/큐
- *
+ * Math.ceil() //올림
+ * Math.floor() //내림
+ * Math.round() //반올림
  */
 
 function solution(progresses, speeds) {
