@@ -1,6 +1,8 @@
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/42885
  * 구명보트
+ * Math.max 이용 => 시간초과
+ * 이분탐색 사용해서 풀기
  */
 
 function solution(people, limit) {
