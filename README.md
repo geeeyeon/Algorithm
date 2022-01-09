@@ -2,10 +2,12 @@
 
 프로그래머스 https://programmers.co.kr/
 
+### JAVA
 - [직사각형 별찍기](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo12969.java)
 - [행렬의 덧셈](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo12950.java1)
 - [짝수와 홀수](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo12937.java)
 
+### Javascript
 - [비밀지도](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo17681.js)
 - [두 개 뽑아서 더하기](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo68644.js)
 - [없는 숫자 더하기](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo86051.js)
