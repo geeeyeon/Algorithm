@@ -61,6 +61,7 @@
 - [그리디_큰 수 만들기](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo91100.js)
 - [구명보트](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo42885.js)
 - [가장 먼 노드](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo91097.js)
+- [다리를 지나는 트럭](https://github.com/geeeyeon/Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/algo42583.js)
 
 
 
