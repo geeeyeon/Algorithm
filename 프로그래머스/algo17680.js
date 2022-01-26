@@ -1,38 +1,33 @@
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/17680
- * 캐시 *
- * 반례 찾아보기..
+ * 캐시
  */
 
 function solution(cacheSize, cities) {
-  var answer = 0;
-  // cities = cities.map((v) => v.toLowerCase());
-  let window = [];
-  let index = [];
+  let answer = 0;
 
+  let cache = [];
   if (cacheSize === 0) return cities.length * 5;
-  for (let i = 0; i < cities.length; i++) {
-    let city = cities[i].toLowerCase();
-    if (window.includes(city)) {
-      let cityIdx = cities.indexOf(city); // 몇번째 인덱스에 있는지?
-      index[cityIdx] = i;
+  cities.forEach((ele) => {
+    let city = ele.toLowerCase();
+    if (cache.includes(city)) {
       answer += 1;
+      let cityIdx = cache.indexOf(city);
+      cache.splice(cityIdx, 1);
+      cache.push(city);
     } else {
-      if (window.length < cacheSize) {
-        window.push(city);
-        index.push(i);
-      } else {
-        let changeIdx = index.indexOf(Math.min(...index));
-        index[changeIdx] = i;
-        window[changeIdx] = city;
-      }
       answer += 5;
+      if (cache.length < cacheSize) {
+        cache.push(city);
+      } else {
+        cache.shift();
+        cache.push(city);
+      }
     }
-  }
-  // console.log(window);
-
+  });
   return answer;
 }
+console.log("--->", solution(0, ["LA", "LA"])); //10
 
 console.log(
   "--->",
