@@ -2,38 +2,33 @@
  * https://programmers.co.kr/learn/courses/30/lessons/42862
  * 체육복
  *
- * for문 줄여서 다시해보기*
  */
 
 function solution(n, lost, reserve) {
-  let answer = 0;
-  let tmp = new Array(n).fill(1);
+  let students = new Array(n + 1).fill(1);
 
-  for (let i = 0; i < lost.length; i++) {
-    tmp[lost[i] - 1]--;
-  }
-  for (let j = 0; j < reserve.length; j++) {
-    tmp[reserve[j] - 1]++;
-  }
+  students = students.map((v, i) => {
+    let tmp = v;
+    if (lost.includes(i)) tmp -= 1;
+    if (reserve.includes(i)) tmp += 1;
+    return (v = tmp);
+  });
 
-  // console.log("tmp>", tmp);
-
-  for (let k = 0; k < tmp.length; k++) {
-    if (tmp[k] === 0) {
-      if (tmp[k - 1] === 2) {
-        tmp[k - 1] = 1;
-        tmp[k] = 1;
-      } else if (tmp[k + 1] === 2) {
-        tmp[k + 1] = 1;
-        tmp[k] = 1;
+  for (let k = 0; k < students.length; k++) {
+    if (students[k] === 0) {
+      if (students[k - 1] === 2) {
+        students[k - 1] -= 1;
+        students[k] += 1;
+      } else if (students[k + 1] === 2) {
+        students[k + 1] -= 1;
+        students[k] += 1;
       }
     }
   }
 
-  for (let l = 0; l < tmp.length; l++) {
-    tmp[l] >= 1 ? answer++ : null;
-  }
-  return answer;
+  return students.filter((val) => val > 0).length - 1;
 }
 
-console.log("--->", solution(5, [2, 4], [1, 3, 5]));
+console.log("--->", solution(5, [2, 4], [1, 3, 5])); //5
+console.log("--->", solution(5, [2, 4], [3])); //4
+console.log("--->", solution(3, [3], [1])); //2
