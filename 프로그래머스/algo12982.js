@@ -5,17 +5,28 @@
  * 배열 오름차순정렬
  * d.sort((a, b) => a - b);
  */
+// function solution(d, budget) {
+//   d = d.sort((a, b) => a - b);
+//   let answer = 0;
+//   let sum = 0;
+//   for (let i = 0; i < d.length; i++) {
+//     sum += d[i];
+//     if (sum <= budget) {
+//       answer++;
+//     }
+//   }
+//   return answer;
+// }
+
 function solution(d, budget) {
-  d = d.sort((a, b) => a - b);
   let answer = 0;
   let sum = 0;
-  for (let i = 0; i < d.length; i++) {
-    sum += d[i];
-    if (sum <= budget) {
-      answer++;
-    }
+  d = d.sort((a, b) => a - b);
+  while (budget >= sum) {
+    sum += d[answer];
+    answer++;
   }
-  return answer;
-}
 
-console.log("--->", solution([2, 2, 3, 3], 10));
+  return --answer;
+}
+console.log("--->", solution([2, 2, 3, 3], 10)); // 4
